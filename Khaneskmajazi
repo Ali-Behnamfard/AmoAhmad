@@ -1,107 +1,98 @@
 {
-  "dns": {
-    "final": "local-dns",
-    "rules": [
-      {
-        "action": "route",
-        "clash_mode": "Global",
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30",
-          "fdfe:dcba:9876::1/126"
-        ]
-      },
-      {
-        "action": "route",
-        "server": "proxy-dns",
-        "source_ip_cidr": [
-          "172.19.0.0/30",
-          "fdfe:dcba:9876::1/126"
-        ]
-      },
-      {
-        "action": "route",
-        "clash_mode": "Direct",
-        "server": "direct-dns"
-      },
-      {
-        "action": "route",
-        "rule_set": [
-          "geosite-ir"
-        ],
-        "server": "direct-dns"
-      }
-    ],
-    "servers": [
-      {
-        "address": "tcp://8.8.8.8",
-        "address_resolver": "local-dns",
-        "detour": "proxy",
-        "tag": "proxy-dns"
-      },
-      {
-        "address": "local",
-        "detour": "direct",
-        "tag": "local-dns"
-      },
-      {
-        "address": "tcp://8.8.8.8",
-        "detour": "direct",
-        "tag": "direct-dns"
-      }
-    ],
-    "strategy": "prefer_ipv4"
-  },
-  "inbounds": [
-    {
-      "address": [
-        "172.19.0.1/30",
-        "fdfe:dcba:9876::1/126"
-      ],
-      "auto_route": true,
-      "endpoint_independent_nat": false,
-      "mtu": 9000,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 2080
-        }
-      },
-      "stack": "system",
-      "strict_route": false,
-      "type": "tun"
-    },
-    {
-      "listen": "127.0.0.1",
-      "listen_port": 2080,
-      "type": "mixed",
-      "users": []
-    }
-  ],
   "outbounds": [
     {
-      "outbounds": [
-        "auto",
-        "direct",
-        "@KevinZakarian",
-        "@KevinZakarian-R"
-      ],
-      "tag": "proxy",
-      "type": "selector"
+      "type": "vless",
+      "tag": "اشتراک خود را آپدیت کنید ⚠️ 15:40 12 خرداد § 0",
+      "server": "bmi.ir",
+      "server_port": 80,
+      "uuid": "60f1d24f-9887-48e5-8fd6-d2b14a93f5d0",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cdn.balboa.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
-      "interval": "10m",
-      "outbounds": [
-        "@KevinZakarian",
-        "@KevinZakarian-R"
-      ],
-      "tag": "auto",
-      "tolerance": 50,
-      "type": "urltest",
-      "url": "http://www.gstatic.com/generate_204"
+      "type": "vless",
+      "tag": "فنلاند § 1",
+      "server": "bmi.ir",
+      "server_port": 80,
+      "uuid": "60f1d24f-9887-48e5-8fd6-d2b14a93f5d0",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cdn.balboa.ir"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      },
+      "packet_encoding": "xudp"
     },
     {
+      "type": "vless",
+      "tag": "آلمان § 2",
+      "server": "150.241.230.225",
+      "server_port": 443,
+      "uuid": "99210b9d-b6fa-43a3-b4b7-545a4f0f7719",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V1L7DiG1NACNjBQdsUk58shmX-49E6MVD07eE2zEuV8",
+          "short_id": "965a6a2f34"
+        }
+      },
+      "transport": {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "play.google.com",
+        "path": "/",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000"
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Sweden § 3",
+      "server": "82.22.23.157",
+      "server_port": 443,
+      "uuid": "27a43e2e-76e2-408f-b564-8f8a78f34c89",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "acM2K8KSwzOFm91xiOAAxZK9rloLXLO7hlgJeuQ0KQ4",
+          "short_id": "d3"
+        }
+      },
+      "transport": {
+        "type": "xhttp",
+        "mode": "auto",
+        "host": "play.google.com",
+        "path": "/",
+        "xPaddingBytes": "100-1000",
+        "scMaxEachPostBytes": "1000000-1000000",
+        "scMinPostsIntervalMs": "30-30"
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
       "tag": "direct",
       "type": "direct"
     },
