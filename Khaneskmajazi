@@ -17,106 +17,14 @@ vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.115.94:2083?path=%2F&securit
 vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.151.106:8443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.151.106%3A8443%20%5BVLESS%5D
 vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.246.141:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.246.141%3A443%20%5BVLESS%5D
 vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@198.41.209.227:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20198.41.209.227%3A443%20%5BVLESS%5D
-
-{
-  "dns": {
-    "servers": [
-      "1.1.1.1",
-      "1.0.0.1"
-    ],
-    "queryStrategy": "UseIP"
-  },
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "direct"
-      }
-    ],
-    "domainMatcher": "hybrid",
-    "domainStrategy": "IPIfNonMatch"
-  },
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "udp": true,
-        "auth": "noauth"
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "settings": {
-        "allowTransparent": false
-      },
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": false,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic"
-        ]
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "156.67.63.231",
-            "port": 443,
-            "users": [
-              {
-                "id": "d8f48fa7-823a-4160-ad85-7f907fc8a6ec",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "sync-bridge.org",
-          "publicKey": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
-          "shortId": "aed348c687dcfffe",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole"
-    }
-  ],
-  "remarks": "🇹🇷 · Turkey #1 ·  [🇮🇷]"
-}
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@coredeck.net:443?type=tcp&security=reality&sni=coredeck.net&pbk=vg_PpAO9NM3l7SRsJUCyh9UO6GQpyiibbfditmO95Vw&sid=94992eb2a18b996b&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B3%F0%9F%87%B1%20%20%C2%B7%20Netherlands%20%231%20%C2%B7%20%5B%F0%9F%8C%8D%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@156.67.63.231:443?type=tcp&security=reality&sni=sync-bridge.org&pbk=PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI&sid=aed348c687dcfffe&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20%C2%B7%20Turkey%20%231%20%C2%B7%20%20%5B%F0%9F%87%AE%F0%9F%87%B7%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@66.151.41.76:443?type=tcp&security=reality&sni=www.samsung.com&pbk=EyWGdhvMFTPHu-nnYll5dJsfBhfpO8gOcPRYj_eEZl4&sid=b1e6&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20%C2%B7%20Germany%20%232%20%C2%B7%20%5B%F0%9F%87%AE%F0%9F%87%B7%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@82.23.248.240:443?type=tcp&security=reality&sni=www.samsung.com&pbk=AzskCMLGoBOqu4ij7GAh5t8k1KLR6PrqPWNfsk592VA&sid=7a3f&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B3%F0%9F%87%B1%20%C2%B7%20Netherlands%20%231%20%C2%B7%20%5B%F0%9F%87%AE%F0%9F%87%B7%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@159.195.37.198:443?type=tcp&security=reality&sni=www.microsoft.com&pbk=B4b-XSWXYXlj7PBVJ2hMgudPqHLCMm0e7TMlf7RK_VM&sid=2d9e&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20%C2%B7%20Germany%20%231%20%C2%B7%20%5B%F0%9F%87%AE%F0%9F%87%B7%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@cdn.pinecloud.net:443?type=tcp&security=reality&sni=cdn.pinecloud.net&pbk=vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8&sid=6a2e3af684799b19&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%AC%F0%9F%87%A7%20%C2%B7%20UK%20%C2%B7%20%5B%F0%9F%87%AE%F0%9F%87%B7%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@82.26.94.56:443?type=tcp&security=reality&sni=www.microsoft.com&pbk=lVm1y94ZuYlcS-MyRyqhj6x38l9jdEBlZXL-8GE2TDU&sid=7c4f&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20%C2%B7%20Turkey%20%231%20%C2%B7%20%5B%F0%9F%8C%8D%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@82.26.136.82:443?type=tcp&security=reality&sni=www.samsung.com&pbk=e-uQ8NXQfFACY_1DLdunql7oHVUEUiWFFaPJpa7ckXc&sid=5e2a&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20%C2%B7%20Turkey%20%232%20%5B%F0%9F%87%AE%F0%9F%87%B7%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@31.76.53.122:443?type=tcp&security=reality&sni=max.ru&pbk=S0yglnqVx6WzLXW9ONhCQmDEm1G7m-I_7Ln4Ss02cxE&sid=d5a9&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%C2%B7%20Finland%20%20%5B%F0%9F%8C%8D%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@82.25.190.188:443?type=tcp&security=reality&sni=dhakanote.com&pbk=Dqjhetz_6_dBmvV-43OjJATaCXrn8C7J2BkmVPI7P2c&sid=3b7e&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20-%20Germany%20%232%20%5B%F0%9F%8C%8D%5D
+vless://d8f48fa7-823a-4160-ad85-7f907fc8a6ec@95.179.170.3:443?type=tcp&security=reality&sni=tasda.com&pbk=42UG-ITHqHODTAsYYZzESGlggwHFvd0ocWc-PIjYaw8&sid=a4f1&fp=chrome&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20-%20Germany%20%231%20%5B%F0%9F%8C%8D%5D
