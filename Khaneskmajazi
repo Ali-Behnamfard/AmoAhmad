@@ -1,19 +1,122 @@
 vmess://eyJhZGQiOiIxOTIuMC4yLjEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5vdmEtY29yYWwtd2F2ZS0yMDRmLnd3dy1hbGliZWhpazMxMy53b3JrZXJzLmRldiIsImlkIjoiYzk3NmY1Y2QtZDdkMi00NTNkLTg0NGMtNWNmM2FjYmFkZTdmIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLz9mYWtlXHUwMDNkMCIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6IvCfk6IgaHR0cHM6Ly90Lm1lL2lybm92YV9wcm94eSIsInNjeSI6ImF1dG8iLCJzbmkiOiJub3ZhLWNvcmFsLXdhdmUtMjA0Zi53d3ctYWxpYmVoaWszMTMud29ya2Vycy5kZXYiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
 vmess://eyJhZGQiOiIxOTIuMC4yLjIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6Im5vdmEtY29yYWwtd2F2ZS0yMDRmLnd3dy1hbGliZWhpazMxMy53b3JrZXJzLmRldiIsImlkIjoiYzk3NmY1Y2QtZDdkMi00NTNkLTg0NGMtNWNmM2FjYmFkZTdmIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLz9mYWtlXHUwMDNkMSIsInBjcyI6IiIsInBvcnQiOiI0NDMiLCJwcyI6IvCfk4ogMC4wMEdCIC8gOTk5OUdCICgwJSkgIHwgIPCfk4UgMjA5OS0wMS0wMSIsInNjeSI6ImF1dG8iLCJzbmkiOiJub3ZhLWNvcmFsLXdhdmUtMjA0Zi53d3ctYWxpYmVoaWszMTMud29ya2Vycy5kZXYiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
 vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@nova-coral-wave-204f.www-alibehik313.workers.dev:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20nova-coral-wave-204f.www-alibehik313.workers.dev%3A443%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.19.51.128:2083?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.19.51.128%3A2083%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.186.130:2083?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.186.130%3A2083%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@108.162.198.153:2087?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20108.162.198.153%3A2087%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@91.193.59.181:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%2091.193.59.181%3A2096%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.113.214:2053?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.113.214%3A2053%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@198.41.208.221:2053?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20198.41.208.221%3A2053%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@162.159.38.160:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20162.159.38.160%3A443%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.62.114:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.62.114%3A2096%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.104.64:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.104.64%3A2096%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.49.118:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.49.118%3A2096%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@162.159.38.197:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20162.159.38.197%3A443%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@162.159.39.89:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20162.159.39.89%3A2096%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.118.56:2087?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.118.56%3A2087%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.149.8:2053?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.149.8%3A2053%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.57.144:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.57.144%3A443%20%5BVLESS%5D
-vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.18.31:2083?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.18.31%3A2083%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@108.162.198.130:2087?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20108.162.198.130%3A2087%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.19.55.242:8443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.19.55.242%3A8443%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.19.144.240:2083?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.19.144.240%3A2083%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.19.35.43:2053?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.19.35.43%3A2053%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.58.153:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.58.153%3A2096%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.18.33.162:2087?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.18.33.162%3A2087%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.157.145:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.157.145%3A2096%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@108.162.198.209:2087?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20108.162.198.209%3A2087%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.97.16:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.97.16%3A443%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@188.164.248.28:2083?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20188.164.248.28%3A2083%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.245.127:8443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.245.127%3A8443%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.26.0.167:2096?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.26.0.167%3A2096%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.17.115.94:2083?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.17.115.94%3A2083%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.151.106:8443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.151.106%3A8443%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@104.16.246.141:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20104.16.246.141%3A443%20%5BVLESS%5D
+vless://c976f5cd-d7d2-453d-844c-5cf3acbade7f@198.41.209.227:443?path=%2F&security=tls&encryption=none&insecure=0&host=nova-coral-wave-204f.www-alibehik313.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=nova-coral-wave-204f.www-alibehik313.workers.dev#%F0%9F%8C%90%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%D9%86%D9%88%D8%A7%20%40irnova_proxy%20198.41.209.227%3A443%20%5BVLESS%5D
+
+{
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "156.67.63.231",
+            "port": 443,
+            "users": [
+              {
+                "id": "d8f48fa7-823a-4160-ad85-7f907fc8a6ec",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "sync-bridge.org",
+          "publicKey": "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI",
+          "shortId": "aed348c687dcfffe",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "remarks": "🇹🇷 · Turkey #1 ·  [🇮🇷]"
+}
